@@ -38,3 +38,15 @@ a3 = int(input("Enter your first Number : "))
 b3 = int(input("Enter your second Number : "))
 c3 = a3 / b3
 print (f"Division of two number is {c3}")
+
+
+
+
+
+
+#  Print input for name and full name 
+
+name = input("Enter your First Name : ")
+lastName =  input("Enter your Last Name : ")
+
+print(f"Hey {name} {lastName} you Solve your First Problem Test")
