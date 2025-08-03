@@ -6,9 +6,9 @@ try:
 except FileNotFoundError : 
     print("File not Exsist in Directory")
     
-    
+sentence = input("Enter a word or sentence to save in file")    
 file2 = open('output.txt','a')
-file2.write(" Hey I complete my task It's work")
+file2.write(sentence)
 file2.close()
 
 with open('output.txt','r') as file2:
