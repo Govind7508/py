@@ -11,8 +11,9 @@ else:
     else:
           print("Your number is Odd")    
           
-          
-for i in range(1, 101):
-    a += i
-    print(a)
+total = 0          
+for i in range(1, 51):
+    total += i
+    
+print(total)
               
